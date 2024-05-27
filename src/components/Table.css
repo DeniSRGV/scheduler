@@ -1,0 +1,60 @@
+.schedule-table {
+  width: 100%;
+}
+.section {
+  margin-bottom: 2px;
+  outline: 1px solid #ccc;
+  display: flex;
+}
+.section-header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  min-width: 250px;
+  max-width: 250px;
+  outline: 1px solid #ccc;
+}
+.title-shop,
+.title-shop-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 86px;
+  outline: 1px solid #ccc;
+  padding: 10px 10px;
+}
+.title-shop-description {
+  height: 100px;
+  align-items: flex-start;
+}
+.total-hours {
+  color: gray;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word
+  span {
+    color: grey;
+    font-size: 8px;
+  }
+}
+.shifts {
+  padding-top: 86px;
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 100px;
+}
+.shift-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  outline: 1px solid #ccc;
+  height: 50px;
+  width: 54.5px;
+  font-weight: 600;
+  span {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
